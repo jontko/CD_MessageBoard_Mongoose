@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/main.css">
+
+    <title>Site Name</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>Message Board - Mongoose </h1>
+        </div>
+
+        <div class="fullbody">
+            <form action="/submit" method="POST">
+                <H3>Name:<input type="text" name="name"></H3><br>
+                <H3>Message:<input type="text" name="message"></H3><br>
+                <button>Post Message</button>
+            </form>
+            <div class="box">
+                <h3>Error Messages</h3>
+                <% if(messages.messages) { %>
+                    <% for (var x of messages.messages) { %>
+                    <h3><%= x %></h3>
+                    <% } %>
+                <% } %>
+            </div>
+
+
+            <div class="scrollwindow">
+                <% for(var post of pst) { %>
+                    <hr>
+                    <h2>Message:<%= post.message %></h2><br>
+                    <h2> - <%= post.name %></h2><br>
+                    <a href="/delete/<%= post.id %>">Delete Post</a><br>
+                        <div class="box">
+                        <h3>Comments</h3>
+                            <form action="/comment" method="POST">
+                                <input type="hidden" name="id" value="<%= post.id %>">
+                                <H3>Name:<input type="text" name="CommentName"></H3><br>
+                                <H3>Message:<input type="text" name="CommentMessage"></H3><br>
+                                <button>Post Message</button>
+                            </form>
+                            <% for(var c of post.comment) { %>
+                            <hr>
+                            <h4>Message:<%= c.comment %></h4><br>
+                            <h4> - <%= c.name %></h4><br>
+                            <hr>
+                            <% } %>
+                        </div>
+                        <!-- <div class="box">
+                            <h3>Comment Object</h3>
+                            <%- JSON.stringify(post) %>
+                        </div> -->
+                <hr><hr>
+                <% } %>
+            </div>
+           
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,265 @@
+/* * {border: 2px red dashed} */
+
+.container {
+    width: 1000px;
+    height: auto;
+    padding: 0px;
+    /* border: 2px red dashed; */
+    border-radius: 10;
+    margin: 0 auto;
+    background-image: radial-gradient(#fbeddc, #ffffff);
+    
+}
+
+.head {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    width: 990px;
+    height: 60px;
+    padding: 5px 0px 0px 0px;
+    border: 2px black solid;
+    border-radius: 5px;
+    margin: 0px 8px 0px 8px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.fullbody {
+    height: auto;
+    width: 990px;
+    padding: 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 5px 10px 10px;
+    vertical-align: top;
+    display:inline-block;
+    text-align: left;
+}
+
+.body {
+    height: 500px;
+    width: 476px;
+    padding: 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 5px 10px 10px;
+    vertical-align: top;
+    display:inline-block;
+    text-align: left;
+}
+
+.rightside {
+    height: 500px;
+    width: 476px;
+    padding: 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 10px 10px 5px;
+    vertical-align: top;
+    display:inline-block;
+    text-align: center;
+}
+
+.scrollwindow {
+    height: 420px;
+    width: 980px;
+    padding: 0px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin: 10px 10px 10px 5px;
+    vertical-align: top;
+    display:inline-block;
+    text-align: left;
+    overflow:scroll;
+
+}
+
+.foot {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 990px;
+    height: 100px;
+    padding: 0px;
+    border: 2px black solid;
+    border-radius: 5px;
+    margin: 0px 8px 0px 8px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.title {
+    width: auto;
+    height: auto;
+    padding: 0px;
+    border: 0px;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    width: auto;
+    height: auto;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 32px;
+    vertical-align: top;
+    display: inline-block;  
+}
+
+h2 {
+    width: auto;
+    height: auto;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    vertical-align: top;
+    display: inline-block;     
+}
+
+h3 {
+    width: auto;
+    height: auto;
+    padding: 0px;
+    border: 0px;
+    margin: 0px 0px 0px 10px;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18.72px;
+    vertical-align: top;
+    display: inline-block;  
+}
+
+h4 {
+    width: 900px;
+    height: 20px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace; 
+    font-size:16px;
+    vertical-align: top;
+    display: inline-block;  
+}
+
+h5 {
+    width: 68px;
+    height: 20px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 12.28px;
+    vertical-align: top;
+    display: inline-block; 
+}
+
+h6 {
+    width: 200px;
+    height: 20px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    font-size:10.72px;
+    vertical-align: top;
+    display: inline-block; 
+}
+
+p {
+    width: auto;
+    height: auto;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 12px;
+    vertical-align: top;
+    display: inline-block; 
+}
+
+a {
+    width: auto;
+    height: auto;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:12.5px;
+    vertical-align: top;
+    display: inline-block;                              
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    border: 5px black solid;
+    border-radius: 5px;
+    margin: 25px 0px 0px 0px;
+    vertical-align: top;
+    display: inline-block;
+}  
+
+.reset{
+    width: 200px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    border: 2px red solid;
+    border-radius: 5px;
+    margin: 0px 0px 0px 0px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+
+.msgboard {
+    height: 120px;
+    width: 800px;
+    padding: 0px;
+    border: 1px black solid;
+    border-radius: 20px;
+    margin: 20px 5px 5px 5px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.box {
+    height: auto;
+    width: 800px;
+    padding: 0px;
+    border: 1px black solid;
+    border-radius: 20px;
+    margin: 20px 5px 5px 5px;
+    vertical-align: top;
+    display: inline-block;
+    overflow: scroll;
+}
+
+.boxname{
+    height: auto;
+    width: auto;
+    padding: 0px;
+    border: 0px;
+    margin-top: 10px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+img{
+    border-radius: 25%;
+    width: 200px;
+    margin-top: 50px;
+}
